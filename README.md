@@ -24,20 +24,4 @@ Replace `/path/to/your/directory` with the path of the directory you want to che
 
 The script will print the path of each C file in the specified directory, followed by a success message if the file check is successful.
 
-
-./utils/tokenizer_utils.c OK
-
-./utils/export_utils.c OK
-
-./utils/linked_lists.c OK
-
-./utils/redir_quote.c OK
-
-./utils/expand_util.c OK
-
-./utils/utils.c <span style="color:green">OK</span>
-
-<span style="color:red">../minishell/mini_lost/echo.c</span>
-  Line 81: else if (ft_strncmp("\"-n\"", str, 4) == 0 && strlen(str) == 4)
-<span style="color:yellow">1 forbidden functions found.</span>
-
+![Output example](screenshot/output.png)
